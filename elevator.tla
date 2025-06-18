@@ -34,7 +34,6 @@ Next ==
     \/ \E f \in 1..Floors: CallElevator(f)
     \/ MoveElevator
     
-Spec == Init /\ [][Next]_<<currFloor, elevatorCall, direction>>
 
 
 =============================================================================
